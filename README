@@ -38,8 +38,8 @@ ss -tio
 
 ```
 ### BBRv3 Runtime Stats
-![Socket Statistics 1](assets/Screenshot_20260528_135422.png)
-![Socket Statistics 2](assets/Screenshot_20260528_135446.png)
+![](assets/Screenshot_20260528_135422.png)
+![](assets/Screenshot_20260528_135446.png)
 
 
 *Note: Look for `bbr:(bw:..., pacing_gain:2.77344, cwnd_gain:2)` in the output.*
@@ -53,7 +53,7 @@ cat /proc/sys/net/ipv4/tcp_congestion_control
 
 ```
 ### Network Verification
-![Network Verification](assets/Screenshot_20260528_135542.png)
+![](assets/Screenshot_20260528_135542.png)
 
 ## Requirements
 

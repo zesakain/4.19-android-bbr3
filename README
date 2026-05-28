@@ -37,9 +37,9 @@ Monitor active connections to confirm BBRv3 pacing and congestion window managem
 ss -tio
 
 ```
-### BBRv3 Runtime Stats (ss -tio)
-![Socket Statistics](assets/Screenshot_20260528_135422.png)
-![Socket Statistics](assets/Screenshot_20260528_135446.png)
+### BBRv3 Runtime Stats
+![Socket Statistics 1](assets/Screenshot_20260528_135422.png)
+![Socket Statistics 2](assets/Screenshot_20260528_135446.png)
 
 
 *Note: Look for `bbr:(bw:..., pacing_gain:2.77344, cwnd_gain:2)` in the output.*
@@ -54,6 +54,7 @@ cat /proc/sys/net/ipv4/tcp_congestion_control
 ```
 ### Network Verification
 ![Network Verification](assets/Screenshot_20260528_135542.png)
+
 ## Requirements
 
 * Root access required for verifying kernel symbols and monitoring socket statistics.
